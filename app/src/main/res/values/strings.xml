@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NoVo Pi</string>
+
+    <string-array name="web_clients">
+        <item>moped</item>
+        <item>mopify</item>
+    </string-array>
+
+</resources>

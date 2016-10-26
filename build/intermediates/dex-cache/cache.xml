@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ee1ff384ab5c77aa2cd3ebc4e15a600c69d656e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_e1eaa49b033d8ff6052f3cbc14dc7340f31e5366.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8eb4f087654ec27d02816d7e986e8f2d2b2c423e">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/instant-run_a7969447af0c55789e5360b1ecb70f38167af989.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_399ce30a7c6f425675a37293dba172829916a1a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_43ba72f9e414fb72c31f491a4023fdf3f77a77a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_43ba72f9e414fb72c31f491a4023fdf3f77a77a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_ee1ff384ab5c77aa2cd3ebc4e15a600c69d656e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7a8a5525dbaf9ce352f9c79517d3b1a51cb86d06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_17467b460926d02e44c8bf480980d1baad9ccbe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7a8a5525dbaf9ce352f9c79517d3b1a51cb86d06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_869eb0eb4ea5316e7d6c9bb47794ee70be58dbde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_64baa1afb097f6a7a0962516b20e398fab925ede.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_4b43383e668038dd1dbb0907053c582d669a7fb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_17467b460926d02e44c8bf480980d1baad9ccbe0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_399ce30a7c6f425675a37293dba172829916a1a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_4b43383e668038dd1dbb0907053c582d669a7fb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_64baa1afb097f6a7a0962516b20e398fab925ede.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_69589ab32b2fe9a2ad8192682a9828029fc5597f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_69589ab32b2fe9a2ad8192682a9828029fc5597f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_3647965f223ed835ba5bd03522f82dbcf745e6d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_5c3551d1468f6257870e68775cfda7f3e66db091.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_7a9fc406bde4ab0876f65e6126778100bd8ad248.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_3647965f223ed835ba5bd03522f82dbcf745e6d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_09183e9925541917803a5e970ae3e7cb24aba57f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_869eb0eb4ea5316e7d6c9bb47794ee70be58dbde.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_7a9fc406bde4ab0876f65e6126778100bd8ad248.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_09183e9925541917803a5e970ae3e7cb24aba57f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_5c3551d1468f6257870e68775cfda7f3e66db091.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="252b7b4adfd04e05e27844fe40192fedb10a54c8">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_165b55e9289aeef440a2bdb8153e7d65d5411b06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_e1eaa49b033d8ff6052f3cbc14dc7340f31e5366.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_cbb7ac626b6ace8a3741b09c74b2de9d2f30502b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_cbb7ac626b6ace8a3741b09c74b2de9d2f30502b.jar" />
+    </item>
+
+</items>
