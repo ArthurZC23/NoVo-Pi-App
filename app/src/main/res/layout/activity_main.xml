@@ -11,6 +11,16 @@
     tools:context="com.example.arthur.novopi.MainActivity"
     >
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webClientSpinner"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="148dp"
+        android:padding="@dimen/activity_vertical_margin" />
+
     <Button
         android:text="GO"
         android:layout_width="match_parent"
@@ -69,16 +79,6 @@
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:text="IP address" />
         </LinearLayout>
-
-        <Spinner
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/webClientSpinner"
-            android:layout_below="@+id/editText"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="148dp"
-            android:padding="@dimen/activity_vertical_margin" />
 
     </LinearLayout>
 
