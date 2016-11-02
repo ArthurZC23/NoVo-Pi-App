@@ -1799,8 +1799,8 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f0c0027;
         public static final int activity_main=0x7f0c0054;
         public static final int add=0x7f0c0013;
-        public static final int addressEditText=0x7f0c0057;
-        public static final int addressTextView=0x7f0c0058;
+        public static final int addressEditText=0x7f0c0059;
+        public static final int addressTextView=0x7f0c005a;
         public static final int alertTitle=0x7f0c0033;
         public static final int always=0x7f0c001d;
         public static final int beginning=0x7f0c001a;
@@ -1816,7 +1816,7 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0c0043;
         public static final int default_activity_button=0x7f0c002a;
         public static final int disableHome=0x7f0c000c;
-        public static final int editText=0x7f0c005a;
+        public static final int editText=0x7f0c0056;
         public static final int edit_query=0x7f0c0047;
         public static final int end=0x7f0c001b;
         public static final int end_padder=0x7f0c0067;
@@ -1873,7 +1873,7 @@ containing a value of this type.
         public static final int text=0x7f0c0065;
         public static final int text2=0x7f0c0063;
         public static final int textSpacerNoButtons=0x7f0c0037;
-        public static final int textView3=0x7f0c0056;
+        public static final int textView3=0x7f0c0058;
         public static final int time=0x7f0c0061;
         public static final int title=0x7f0c002d;
         public static final int title_template=0x7f0c0032;
@@ -1881,8 +1881,8 @@ containing a value of this type.
         public static final int topPanel=0x7f0c0031;
         public static final int up=0x7f0c0008;
         public static final int useLogo=0x7f0c0012;
-        public static final int webClientButton=0x7f0c0055;
-        public static final int webClientSpinner=0x7f0c0059;
+        public static final int webClientButton=0x7f0c0057;
+        public static final int webClientSpinner=0x7f0c0055;
         public static final int withText=0x7f0c0021;
         public static final int wrap_content=0x7f0c0019;
     }

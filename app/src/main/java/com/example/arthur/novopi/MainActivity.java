@@ -1,11 +1,15 @@
 package com.example.arthur.novopi;
 
+import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.net.nsd.NsdManager;
+import android.net.nsd.NsdServiceInfo;;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -13,6 +17,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import java.net.InetAddress;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,9 +26,17 @@ public class MainActivity extends AppCompatActivity {
     private TextView addressTextView;
     private Spinner webClientSpinner;
     private Button webClientButton;
-    private String novopiIPAdress;
+    private String novopiHostname;
     private String webClientPath;
     private Intent webIntent;
+    private NsdManager mNsdManager;
+    private NsdManager.DiscoveryListener mDiscoveryListener;
+    private NsdManager.ResolveListener mResolveListener;
+    private NsdServiceInfo mServiceInfo;
+    public String novopiIP;
+
+    // The NSD service type that the novopi exposes.
+    private static final String SERVICE_TYPE = "_workstation._tcp.";
 
 
     @Override
@@ -50,6 +63,11 @@ public class MainActivity extends AppCompatActivity {
         //Event Listeners
         addressEditText.addTextChangedListener(addressEditTextWatcher);
         webClientButton.setOnClickListener(webClientButtonListener);
+
+        novopiIP = "";
+        mNsdManager = (NsdManager)(getApplicationContext().getSystemService(Context.NSD_SERVICE));
+
+
     }
 
     private TextWatcher addressEditTextWatcher = new TextWatcher(){
@@ -60,8 +78,13 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void  afterTextChanged(Editable s) {
 
-            novopiIPAdress = s.toString();
-            addressTextView.setText(novopiIPAdress);
+            novopiHostname = s.toString();
+            addressTextView.setText(novopiHostname);
+
+            //Discover IP address from hostname with mDNS
+            initializeResolveListener();
+            initializeDiscoveryListener();
+            mNsdManager.discoverServices(SERVICE_TYPE, NsdManager.PROTOCOL_DNS_SD, mDiscoveryListener);
 
         }
 
@@ -74,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View v){
 
-            webClientPath = "http://" + novopiIPAdress + ":6680/" + webClientSpinner.getSelectedItem().toString();
+            webClientPath = "http://" + novopiIP + ":6680/" + webClientSpinner.getSelectedItem().toString();
             webIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(webClientPath));
             try {
                 startActivity(webIntent);
@@ -83,4 +106,71 @@ public class MainActivity extends AppCompatActivity {
         }
 
     };
+
+    private void initializeDiscoveryListener() {
+
+
+        mDiscoveryListener = new NsdManager.DiscoveryListener() {
+
+            //  Called as soon as service discovery begins.
+            @Override
+            public void onDiscoveryStarted(String regType) {
+            }
+
+            @Override
+            public void onServiceFound(NsdServiceInfo service) {
+                // A service was found. See if is coming from the device selected by the user
+                String name = service.getServiceName();
+                String type = service.getServiceType();
+                Log.d("NSD", "Service Name=" + name);
+                Log.d("NSD", "Service Type=" + type);
+                if (type.equals(SERVICE_TYPE) && name.contains(novopiHostname)) {
+                    Log.d("NSD", "Service Found @ '" + name + "'");
+                    mNsdManager.resolveService(service, mResolveListener);
+                }
+            }
+
+            @Override
+            public void onServiceLost(NsdServiceInfo service) {
+                // When the network service is no longer available.
+                // Internal bookkeeping code goes here.
+            }
+
+            @Override
+            public void onDiscoveryStopped(String serviceType) {
+            }
+
+            @Override
+            public void onStartDiscoveryFailed(String serviceType, int errorCode) {
+                mNsdManager.stopServiceDiscovery(this);
+            }
+
+            @Override
+            public void onStopDiscoveryFailed(String serviceType, int errorCode) {
+                mNsdManager.stopServiceDiscovery(this);
+            }
+        };
+    }
+
+    private void initializeResolveListener() {
+        mResolveListener = new NsdManager.ResolveListener() {
+
+            @Override
+            public void onResolveFailed(NsdServiceInfo serviceInfo, int errorCode) {
+                // Called when the resolve fails.  Use the error code to debug.
+                Log.e("NSD", "Resolve failed" + errorCode);
+            }
+
+            @Override
+            public void onServiceResolved(NsdServiceInfo serviceInfo) {
+                mServiceInfo = serviceInfo;
+                InetAddress host = mServiceInfo.getHost();
+                String address = host.getHostAddress();
+                Log.d("NSD", "Resolved address = " + address);
+                //Get IP address of the host
+                novopiIP = address;
+            }
+        };
+    }
+
 }

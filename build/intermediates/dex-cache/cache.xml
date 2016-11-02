@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="8eb4f087654ec27d02816d7e986e8f2d2b2c423e">
+        sha1="88b71383e4f0445b79a538f0f0c691c2d0829d30">
         <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/instant-run_a7969447af0c55789e5360b1ecb70f38167af989.jar" />
     </item>
     <item
@@ -259,7 +259,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="252b7b4adfd04e05e27844fe40192fedb10a54c8">
+        sha1="1fece42fafc622d44deae24b022e09265821955c">
         <dex dex="/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_165b55e9289aeef440a2bdb8153e7d65d5411b06.jar" />
     </item>
     <item
