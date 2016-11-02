@@ -24,12 +24,12 @@
         "source": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
         "source": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_edittext.xml"
     },
     {
         "merged": "/home/arthur/AndroidStudioProjects/NoVoPi/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
