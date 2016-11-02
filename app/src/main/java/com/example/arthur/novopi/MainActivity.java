@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.view.MotionEvent;
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -32,20 +32,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Get layout references
         addressTextView = (TextView) findViewById(R.id.addressTextView);
         addressEditText = (EditText) findViewById(R.id.addressEditText);
         webClientSpinner = (Spinner) findViewById(R.id.webClientSpinner);
         webClientButton = (Button)  findViewById(R.id.webClientButton);
 
 
-// Create an ArrayAdapter using the string array and a default spinner layout
+        //ArrayAdpter for spinner
         ArrayAdapter<CharSequence> spinnerAdapter = ArrayAdapter.createFromResource(this,
                 R.array.web_clients, android.R.layout.simple_spinner_item);
-// Specify the layout to use when the list of choices appears
+
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-// Apply the adapter to the spinner
+
         webClientSpinner.setAdapter(spinnerAdapter);
 
+        //Event Listeners
         addressEditText.addTextChangedListener(addressEditTextWatcher);
         webClientButton.setOnClickListener(webClientButtonListener);
     }
