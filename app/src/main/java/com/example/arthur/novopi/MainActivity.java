@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     private NsdManager.DiscoveryListener mDiscoveryListener;
     private NsdManager.ResolveListener mResolveListener;
     private NsdServiceInfo mServiceInfo;
-    public String novopiIP;
+    private String novopiIP;
 
     // The NSD service type that the novopi exposes.
     private static final String SERVICE_TYPE = "_workstation._tcp.";
@@ -142,12 +142,10 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onStartDiscoveryFailed(String serviceType, int errorCode) {
-                mNsdManager.stopServiceDiscovery(this);
             }
 
             @Override
             public void onStopDiscoveryFailed(String serviceType, int errorCode) {
-                mNsdManager.stopServiceDiscovery(this);
             }
         };
     }
